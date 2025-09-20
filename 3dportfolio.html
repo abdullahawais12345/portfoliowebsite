@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdullah Awais - Frontend Web Developer & Designer</title>
+    <meta name="description" content="Abdullah Awais - Professional Frontend Web Developer & Designer specializing in responsive, user-friendly websites using HTML, CSS, JavaScript & Bootstrap. Portfolio development services from Rs 5,000.">
+    <meta name="author" content="Abdullah Awais">
+    <meta name="keywords" content="frontend developer, web designer, HTML, CSS, JavaScript, Bootstrap, responsive websites, portfolio development, Abdullah Awais">
+    
+    <meta property="og:title" content="Abdullah Awais - Frontend Web Developer & Designer">
+    <meta property="og:description" content="Professional Frontend Web Developer & Designer specializing in responsive websites. Portfolio development services available.">
+    <meta property="og:type" content="website">
+    
+    <link rel="stylesheet" href="style2.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="icon" href="6036447.png">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar" class="navbar">
+        <div class="nav-container">
+            <div class="nav-content">
+                <div class="nav-logo">
+                    <span class="logo-text">Abdullah<span class="logo-dot">.</span></span>
+                </div>
+                
+                <div class="nav-links desktop-nav">
+                    <a href="#home" class="nav-link">Home</a>
+                    <a href="#skills" class="nav-link">Skills</a>
+                    <a href="#education" class="nav-link">Education</a>
+                    <a href="#projects" class="nav-link">Projects</a>
+                    <a href="#services" class="nav-link">Services</a>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </div>
+                
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <i class="fas fa-bars" id="menuIcon"></i>
+                </button>
+            </div>
+            
+            <div class="mobile-nav" id="mobileNav">
+                <a href="#home" class="mobile-nav-link">Home</a>
+                <a href="#skills" class="mobile-nav-link">Skills</a>
+                <a href="#education" class="mobile-nav-link">Education</a>
+                <a href="#projects" class="mobile-nav-link">Projects</a>
+                <a href="#services" class="mobile-nav-link">Services</a>
+                <a href="#contact" class="mobile-nav-link">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-background"></div>
+        <div class="hero-overlay"></div>
+        
+        <div class="floating-icon floating-icon-1">
+            <i class="fas fa-code"></i>
+        </div>
+        <div class="floating-icon floating-icon-2">
+            <i class="fas fa-palette"></i>
+        </div>
+        
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Hi, I'm <span class="hero-name">Abdullah Awais</span>
+                </h1>
+                
+                <p class="hero-subtitle">Frontend Web Developer & Designer</p>
+                
+                <p class="hero-description">
+                    With a strong focus on creating responsive and user-friendly websites that deliver exceptional digital experiences
+                </p>
+                
+                <div class="hero-buttons">
+                    <button class="btn btn-hero" onclick="scrollToSection('contact')">
+                        Get In Touch
+                    </button>
+                    <button class="btn btn-outline" onclick="scrollToSection('projects')">
+                        View My Work
+                    </button>
+                </div>
+            </div>
+            
+            <div class="scroll-indicator">
+                <i class="fas fa-arrow-down"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">My Skills</h2>
+                <p class="section-description">
+                    Proficient in modern web technologies with a focus on creating responsive and interactive user interfaces
+                </p>
+            </div>
+            
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">🏗️</div>
+                    <h3 class="skill-name">HTML</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="95"></div>
+                    </div>
+                    <span class="skill-percentage">95%</span>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="skill-icon">🎨</div>
+                    <h3 class="skill-name">CSS</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="90"></div>
+                    </div>
+                    <span class="skill-percentage">90%</span>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="skill-icon">⚡</div>
+                    <h3 class="skill-name">JavaScript</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="85"></div>
+                    </div>
+                    <span class="skill-percentage">85%</span>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="skill-icon">📱</div>
+                    <h3 class="skill-name">Bootstrap</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="80"></div>
+                    </div>
+                    <span class="skill-percentage">80%</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Education</h2>
+                <p class="section-description">
+                    My academic journey and continuous learning in technology and development
+                </p>
+            </div>
+            
+            <div class="timeline">
+                <div class="timeline-line"></div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="education-card">
+                            <div class="education-header">
+                                <div class="education-icon">📚</div>
+                                <div class="education-info">
+                                    <h3 class="education-degree">Matric</h3>
+                                    <div class="education-year">
+                                        <i class="fas fa-calendar"></i>
+                                        <span>2021</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="education-status completed">
+                                <i class="fas fa-graduation-cap"></i>
+                                Completed
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-node"></div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-content reverse">
+                        <div class="education-card">
+                            <div class="education-header">
+                                <div class="education-icon">🎓</div>
+                                <div class="education-info">
+                                    <h3 class="education-degree">Intermediate</h3>
+                                    <div class="education-year">
+                                        <i class="fas fa-calendar"></i>
+                                        <span>2023</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="education-status completed">
+                                <i class="fas fa-graduation-cap"></i>
+                                Completed
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-node"></div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="education-card">
+                            <div class="education-header">
+                                <div class="education-icon">🎯</div>
+                                <div class="education-info">
+                                    <h3 class="education-degree">Graduation</h3>
+                                    <div class="education-year">
+                                        <i class="fas fa-calendar"></i>
+                                        <span>2025</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="education-status completed">
+                                <i class="fas fa-graduation-cap"></i>
+                                completed
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-node"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">My Projects</h2>
+                <p class="section-description">
+                    Showcasing my latest work in responsive web development and user interface design
+                </p>
+            </div>
+            
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">🍔</div>
+                        <h3 class="project-title">Responsive Food Website</h3>
+                    </div>
+                    
+                    <p class="project-description">
+                        A modern, responsive food website built with HTML, CSS, and JavaScript featuring interactive menus, smooth animations, and mobile-first design.
+                    </p>
+                    
+                    <div class="project-tech">
+                        <h4 class="tech-title">Technologies Used</h4>
+                        <div class="tech-tags">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                    </div>
+                    
+                    <div class="project-features">
+                        <h4 class="features-title">Key Features</h4>
+                        <div class="features-list">
+                            <div class="feature-item">
+                                <i class="fas fa-mobile-alt"></i>
+                                <span>Responsive Design</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-mobile-alt"></i>
+                                <span>Interactive Menu</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-mobile-alt"></i>
+                                <span>Smooth Animations</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-mobile-alt"></i>
+                                <span>Mobile Optimized</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="project-buttons">
+                        <button class="btn btn-hero btn-sm">
+                            <a style="color: white;" target="_blank" href="https://cookingstudio123.github.io/foodwebsite/cookingstudio.html" ><i class="fas fa-external-link-alt"></i>
+                            View Project</a>
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">💼</div>
+                        <h3 class="project-title">Personal Portfolio Website</h3>
+                    </div>
+                    
+                    <p class="project-description">
+                        A professional portfolio website showcasing web development skills with modern design principles and responsive layouts.
+                    </p>
+                    
+                    <div class="project-tech">
+                        <h4 class="tech-title">Technologies Used</h4>
+                        <div class="tech-tags">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                    </div>
+                    
+                    <div class="project-features">
+                        <h4 class="features-title">Key Features</h4>
+                        <div class="features-list">
+                            <div class="feature-item">
+                                <i class="fas fa-mobile-alt"></i>
+                                <span>Modern Design</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-mobile-alt"></i>
+                                <span>Portfolio Showcase</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-mobile-alt"></i>
+                                <span>Contact Integration</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-mobile-alt"></i>
+                                <span>Mobile Optimized</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Services & Pricing</h2>
+                <p class="section-description">
+                    Professional web development services with competitive pricing and quality assurance
+                </p>
+            </div>
+            
+            <div class="service-card-main">
+                <div class="service-badge">
+                    <i class="fas fa-star"></i>
+                    MOST POPULAR
+                </div>
+                
+                <h3 class="service-title">Responsive Portfolio Website</h3>
+                <p class="service-description">
+                    Complete responsive website development using HTML, CSS, and JavaScript
+                </p>
+                
+                <div class="service-content">
+                    <div class="service-features">
+                        <h4 class="features-title">What's Included:</h4>
+                        <div class="features-list">
+                            <div class="feature-item">
+                                <i class="fas fa-check"></i>
+                                <span>Fully Responsive Design</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check"></i>
+                                <span>Modern UI/UX</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check"></i>
+                                <span>Cross-browser Compatibility</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check"></i>
+                                <span>Mobile-first Approach</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check"></i>
+                                <span>Clean, Semantic HTML</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check"></i>
+                                <span>Optimized CSS & JavaScript</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check"></i>
+                                <span>Fast Loading Speed</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="service-pricing">
+                        <div class="price-original">Rs 10,000</div>
+                        <div class="price-current">Rs 5,000</div>
+                        <div class="discount-badge">
+                            <i class="fas fa-bolt"></i>
+                            50% DISCOUNT OFFER
+                        </div>
+                        
+                        <button class="btn btn-hero btn-xl" onclick="scrollToSection('contact')">
+                            Get Started Now
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="service-note">
+                    * Limited time offer. Price after discount: Rs 5,000 only
+                </div>
+            </div>
+            
+            <div class="service-cta">
+                <h3 class="cta-title">Ready to bring your vision to life?</h3>
+                <button class="btn btn-contact btn-lg" onclick="scrollToSection('contact')">
+                    Contact Me for Custom Quote
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Let's Work Together</h2>
+                <p class="section-description">
+                    Ready to start your next project? Get in touch and let's create something amazing together!
+                </p>
+            </div>
+            
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <div class="contact-icon whatsapp-icon">
+                        <i class="fab fa-whatsapp"></i>
+                    </div>
+                    
+                    <h3 class="contact-title">WhatsApp Contact</h3>
+                    <p class="contact-description">
+                        Quick response guaranteed! Message me directly for instant communication.
+                    </p>
+                    
+                    <div class="contact-buttons">
+                        <button class="btn btn-whatsapp" onclick="openWhatsApp('03084440377')">
+                            <i class="fas fa-phone"></i>
+                            03084440377
+                        </button>
+                        <button class="btn btn-whatsapp" onclick="openWhatsApp('03314838004')">
+                            <i class="fas fa-phone"></i>
+                            03314838004
+                        </button>
+                    </div>
+                    
+                    <p class="contact-hours">Available 9 AM - 9 PM (PKT)</p>
+                </div>
+                
+                <div class="contact-card">
+                    <div class="contact-icon email-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    
+                    <h3 class="contact-title">Email Contact</h3>
+                    <p class="contact-description">
+                        Prefer email? Send me a detailed message about your project requirements.
+                    </p>
+                    
+                    <div class="contact-buttons">
+                        <button class="btn btn-contact" onclick="openEmail('abdullahawais918@gmail.com')">
+                            <i class="fas fa-envelope"></i>
+                            abdullahawais918@gmail.com
+                        </button>
+                        <button class="btn btn-contact" onclick="openEmail('abdullahawais927@gmail.com')">
+                            <i class="fas fa-envelope"></i>
+                            abdullahawais927@gmail.com
+                        </button>
+                    </div>
+                    
+                    <p class="contact-hours">Response within 24 hours</p>
+                </div>
+            </div>
+            
+            <div class="contact-cta">
+                <h3 class="cta-title">Ready to Get Started?</h3>
+                <p class="cta-description">
+                    Contact me today for a free consultation and let's discuss how I can help bring your web project to life!
+                </p>
+                
+                <div class="cta-buttons">
+                    <button class="btn btn-hero btn-xl" onclick="openWhatsApp('03084440377')">
+                        <i class="fab fa-whatsapp"></i>
+                        WhatsApp Me Now
+                    </button>
+                    <button class="btn btn-outline btn-xl" onclick="openEmail('abdullahawais918@gmail.com')">
+                        <i class="fas fa-envelope"></i>
+                        Send Email
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span class="logo-text">Abdullah<span class="logo-dot">.</span></span>
+                </div>
+                
+                <div class="footer-links">
+                    <a href="#home" class="footer-link">Home</a>
+                    <a href="#skills" class="footer-link">Skills</a>
+                    <a href="#education" class="footer-link">Education</a>
+                    <a href="#projects" class="footer-link">Projects</a>
+                    <a href="#services" class="footer-link">Services</a>
+                    <a href="#contact" class="footer-link">Contact</a>
+                </div>
+                
+                <div class="footer-contact">
+                    <div class="contact-item">
+                        <i class="fab fa-whatsapp"></i>
+                        <span>03084440377 / 03314838004</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>abdullahawais918@gmail.com</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Abdullah Awais. All rights reserved.</p>
+                <p>Frontend Web Developer & Designer</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script2.js"></script>
+</body>
+</html>
